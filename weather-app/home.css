@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 90%;
+  background: linear-gradient(to right, #cef4f9, #ace5d3);
+  max-width: 600px;
+  color: rgb(84, 84, 84);
+  margin: 100px auto 0;
+  border-radius: 15px;
+  text-align: center;
+  padding: 40px   ;
+}
+.srchBox{
+  width: 100%;
+      padding: 41px 40px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly  ;
+}
+.srchBox input{
+  border: 1px black;
+  padding: 20px 20px;
+  color :#555;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 0 5px;
+  outline: #555;
+} 
+ .srchBox button{
+  border: 0;
+  background:  white;
+  border-radius: 50%;
+  cursor: pointer;
+  /* height: 50px; */
+ }
+ .srchBox button img{
+   height: 70px;
+   width: 70px;
+ }
+ .weatherimg{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+ }
+ .weather h1{
+  font-size: 70px;
+  font-weight: 600;
+ }
+ .weather h2{
+  font-size: 60px;
+  font-weight: 500;
+ }
+ .details{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 25px;
+  margin-top: 60px;
+ }
+ .col img{
+   width: 100px;
+  height: 100px;
+ }
+  .col img{
+   width: 100px;
+  height: 100px;
+ }
+ .details col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+ }
+ .humidity,.wind{
+  font-size: 30px;
+  margin-top: -5px;
+ }
